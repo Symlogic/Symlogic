@@ -451,7 +451,7 @@
   }
   .mobile-menu a {
     font-family: 'Syne', sans-serif; font-weight: 700;
-    font-size: 2rem; color: var(--white); text-decoration: none;
+    font-size: 1.3rem; color: var(--white); text-decoration: none;
     letter-spacing: 0.03em;
     transition: color 0.2s;
   }
@@ -489,6 +489,9 @@
     .solutions-cards { grid-template-columns: 1fr; }
     .compliance-grid { grid-template-columns: 1fr; }
     .metrics-grid { grid-template-columns: 1fr 1fr; }
+	.nav-logo img {max-width:80px;}
+	.footer-logo img {max-width:80px;}
+	nav {padding:0.5rem 5%; }
   }
 
   /* SCROLL ANIMATIONS */
