@@ -88,7 +88,7 @@
   .mobile-menu.open { display: flex; opacity: 1; }
   .mobile-menu a {
     font-family: 'Syne', sans-serif; font-weight: 700;
-    font-size: 2rem; color: var(--white); text-decoration: none; transition: color 0.2s;
+    font-size: 1.3rem; color: var(--white); text-decoration: none; transition: color 0.2s;
   }
   .mobile-menu a:hover { color: var(--accent); }
   .mobile-menu .menu-cta {
@@ -311,4 +311,7 @@
     .rights-grid { grid-template-columns: 1fr; }
     .data-table { font-size: 0.8rem; }
     .data-table th, .data-table td { padding: 0.65rem 0.75rem; }
+	.footer-logo img {width:80px;}
+	.nav-logo img {width:80px;}
+	nav {padding:0.5rem 5%; }
   }
